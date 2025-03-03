@@ -9,6 +9,8 @@ using Serilog;
 using System.Net;
 using System.Text.Json;
 using BryanJonatan_Acceloka;
+using FluentValidation;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -34,6 +36,9 @@ builder.Services.AddCors(options =>
                         .AllowAnyHeader()
                         .AllowAnyMethod());
 });
+
+builder.Services.AddMediatR(typeof(Program));
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
 
 var app = builder.Build();

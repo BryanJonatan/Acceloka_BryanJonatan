@@ -1,0 +1,869 @@
+2025-03-01 19:17:58.879 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 19:17:58.888 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 19:17:58.958 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 19:17:58.961 +07:00 [INF] Hosting environment: Development
+2025-03-01 19:17:58.963 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 19:18:02.296 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger - null null
+2025-03-01 19:18:02.489 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger - 301 0 null 199.3015ms
+2025-03-01 19:18:02.493 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:18:02.538 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 44.6735ms
+2025-03-01 19:18:02.545 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/swagger-ui.css - null null
+2025-03-01 19:18:02.545 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/swagger-ui-bundle.js - null null
+2025-03-01 19:18:02.545 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:18:02.546 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-01 19:18:02.546 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.css - null null
+2025-03-01 19:18:02.546 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:18:02.554 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 8.2529ms
+2025-03-01 19:18:02.557 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:18:02.602 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 56.2571ms
+2025-03-01 19:18:02.610 +07:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-03-01 19:18:02.611 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.css - 200 202 text/css 66.433ms
+2025-03-01 19:18:02.631 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-01 19:18:02.631 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-01 19:18:02.635 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 89.3891ms
+2025-03-01 19:18:02.635 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/swagger-ui.css - 200 152035 text/css 90.0945ms
+2025-03-01 19:18:02.663 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-01 19:18:02.663 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 118.5643ms
+2025-03-01 19:18:02.689 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 131.581ms
+2025-03-01 19:18:02.767 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:18:02.788 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.3002ms
+2025-03-01 19:19:35.239 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:19:35.255 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.7181ms
+2025-03-01 19:19:35.256 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:19:35.261 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.7722ms
+2025-03-01 19:20:01.184 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:20:01.192 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.3889ms
+2025-03-01 19:20:01.193 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:20:01.197 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.0513ms
+2025-03-01 19:20:45.486 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json - null null
+2025-03-01 19:20:45.499 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json - 404 0 null 13.5057ms
+2025-03-01 19:20:45.502 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-available-ticket.json, Response status code: 404
+2025-03-01 19:21:00.869 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json - null null
+2025-03-01 19:21:00.875 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json - 404 0 null 6.5028ms
+2025-03-01 19:21:00.876 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-available-ticket.json, Response status code: 404
+2025-03-01 19:21:00.881 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json - null null
+2025-03-01 19:21:00.881 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json - 404 0 null 0.4143ms
+2025-03-01 19:21:00.881 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-available-ticket.json, Response status code: 404
+2025-03-01 19:21:20.273 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:21:20.310 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.1236ms
+2025-03-01 19:21:20.394 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/favicon.ico - null null
+2025-03-01 19:21:20.394 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/favicon.ico - 404 0 null 0.483ms
+2025-03-01 19:21:20.395 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/favicon.ico, Response status code: 404
+2025-03-01 19:21:56.400 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:21:56.408 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.952ms
+2025-03-01 19:22:00.821 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:22:00.826 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.9065ms
+2025-03-01 19:22:00.828 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:22:00.832 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.5382ms
+2025-03-01 19:22:50.773 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 19:22:50.773 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 1.9554ms
+2025-03-01 19:22:50.777 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 19:22:50.794 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 19:22:50.795 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 4.8348ms
+2025-03-01 19:22:50.795 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 19:22:52.314 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 19:22:52.315 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 1.0735ms
+2025-03-01 19:22:52.315 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 19:31:00.182 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:31:00.198 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 16.129ms
+2025-03-01 19:31:00.214 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:31:00.215 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 0.5247ms
+2025-03-01 19:31:00.215 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:31:00.216 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:31:00.222 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 6.8942ms
+2025-03-01 19:31:00.243 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.6373ms
+2025-03-01 19:31:00.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:31:00.341 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.4421ms
+2025-03-01 19:31:00.343 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/favicon-32x32.png - null null
+2025-03-01 19:31:00.343 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-01 19:31:00.343 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/favicon-32x32.png - 200 628 image/png 0.4437ms
+2025-03-01 19:31:19.672 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 19:31:19.672 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 1.9811ms
+2025-03-01 19:31:19.672 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 19:31:20.305 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 19:31:20.305 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 1.1095ms
+2025-03-01 19:31:20.305 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 19:31:31.265 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:31:31.266 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 1.4734ms
+2025-03-01 19:31:32.098 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:31:32.099 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 0.5433ms
+2025-03-01 19:31:57.967 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:31:57.967 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 0.4798ms
+2025-03-01 19:31:57.971 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:31:57.971 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 0.4088ms
+2025-03-01 19:33:55.766 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 19:33:55.767 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 0.3653ms
+2025-03-01 19:33:55.767 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 19:33:55.770 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 19:33:55.770 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 0.3726ms
+2025-03-01 19:33:55.770 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 19:33:57.674 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 19:33:57.674 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 1.6837ms
+2025-03-01 19:33:57.675 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 19:34:38.174 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json/todos?_limit=5 - null null
+2025-03-01 19:34:38.175 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json/todos?_limit=5 - 404 0 null 1.4481ms
+2025-03-01 19:34:38.175 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-available-ticket.json/todos, Response status code: 404
+2025-03-01 19:34:38.804 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json/todos?_limit=5 - null null
+2025-03-01 19:34:38.805 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket.json/todos?_limit=5 - 404 0 null 1.4134ms
+2025-03-01 19:34:38.806 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-available-ticket.json/todos, Response status code: 404
+2025-03-01 19:35:08.240 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:35:08.251 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 11.5994ms
+2025-03-01 19:35:08.266 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:35:08.267 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:35:08.268 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.4106ms
+2025-03-01 19:35:08.270 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:35:08.270 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 0.3361ms
+2025-03-01 19:35:08.295 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.54ms
+2025-03-01 19:35:08.484 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:35:08.489 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.7882ms
+2025-03-01 19:35:10.518 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json/todos?_limit=5 - null null
+2025-03-01 19:35:10.518 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json/todos?_limit=5 - 404 0 null 0.7328ms
+2025-03-01 19:35:10.518 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json/todos, Response status code: 404
+2025-03-01 19:36:44.805 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 19:36:44.815 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 19:36:44.816 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 19:36:44.817 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 11.7999ms
+2025-03-01 19:36:47.804 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 19:36:47.805 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 19:36:47.805 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 19:36:47.805 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 0.508ms
+2025-03-01 19:36:48.577 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 19:36:48.577 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 19:36:48.577 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 19:36:48.577 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 0.7586ms
+2025-03-01 19:37:12.831 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger - null null
+2025-03-01 19:37:12.832 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger - 404 0 null 0.6586ms
+2025-03-01 19:37:12.832 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger, Response status code: 404
+2025-03-01 19:37:13.459 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger - null null
+2025-03-01 19:37:13.460 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger - 404 0 null 1.4164ms
+2025-03-01 19:37:13.460 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger, Response status code: 404
+2025-03-01 19:44:14.057 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 19:44:14.064 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 19:44:14.129 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 19:44:14.131 +07:00 [INF] Hosting environment: Development
+2025-03-01 19:44:14.133 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 19:44:14.562 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:44:14.717 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 161.2488ms
+2025-03-01 19:44:14.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:44:14.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:44:14.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:44:14.730 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 2.901ms
+2025-03-01 19:44:14.741 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 13.7834ms
+2025-03-01 19:44:14.765 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.7126ms
+2025-03-01 19:44:14.792 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:44:14.811 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.0946ms
+2025-03-01 19:46:06.078 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 19:46:06.089 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 19:46:06.166 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 19:46:06.168 +07:00 [INF] Hosting environment: Development
+2025-03-01 19:46:06.170 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 19:46:06.421 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:46:06.558 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 142.3377ms
+2025-03-01 19:46:06.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:46:06.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:46:06.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:46:06.571 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 2.1755ms
+2025-03-01 19:46:06.584 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 15.61ms
+2025-03-01 19:46:06.606 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.3651ms
+2025-03-01 19:46:06.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:46:06.644 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4005ms
+2025-03-01 19:46:55.779 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:46:55.795 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.7997ms
+2025-03-01 19:47:19.278 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 19:47:19.284 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 19:47:19.348 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 19:47:19.350 +07:00 [INF] Hosting environment: Development
+2025-03-01 19:47:19.352 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 19:47:20.054 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:47:20.194 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 147.2126ms
+2025-03-01 19:47:20.204 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:47:20.204 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:47:20.205 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:47:20.213 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 6.5877ms
+2025-03-01 19:47:20.228 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 24.846ms
+2025-03-01 19:47:20.247 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.3858ms
+2025-03-01 19:47:20.275 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:47:20.293 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.779ms
+2025-03-01 19:47:27.831 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:47:27.847 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.5208ms
+2025-03-01 19:47:51.369 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 19:47:51.379 +07:00 [INF] CORS policy execution successful.
+2025-03-01 19:47:51.387 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 17.5321ms
+2025-03-01 19:47:51.390 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 19:47:53.050 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 19:47:53.051 +07:00 [INF] CORS policy execution successful.
+2025-03-01 19:47:53.051 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 1.4676ms
+2025-03-01 19:47:53.051 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 19:48:30.581 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json/todos?_limit=5 - null null
+2025-03-01 19:48:30.591 +07:00 [INF] CORS policy execution successful.
+2025-03-01 19:48:30.592 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json/todos?_limit=5 - 404 0 null 10.9103ms
+2025-03-01 19:48:30.592 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json/todos, Response status code: 404
+2025-03-01 19:51:15.907 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - null null
+2025-03-01 19:51:15.932 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-01 19:51:15.954 +07:00 [INF] Route matched with {action = "GetBookedTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicket(System.String) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 19:51:17.740 +07:00 [INF] Executed DbCommand (91ms) [Parameters=[@__bookedTicketId_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[BookingId], [b].[Quantity], [b].[TicketCode], [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [BookedTickets] AS [b]
+LEFT JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookingId] = @__bookedTicketId_0
+2025-03-01 19:51:17.870 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 19:51:17.884 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka) in 1927.4724ms
+2025-03-01 19:51:17.885 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-01 19:51:17.888 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - 200 null application/json; charset=utf-8 1981.084ms
+2025-03-01 19:53:13.833 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7035/api/v1/book-ticket - application/json 55
+2025-03-01 19:53:13.837 +07:00 [INF] CORS policy execution failed.
+2025-03-01 19:53:13.837 +07:00 [INF] Request origin https://localhost:7035 does not have permission to access the resource.
+2025-03-01 19:53:13.837 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-01 19:53:13.845 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(System.Collections.Generic.List`1[BryanJonatan_Acceloka.Model.BookTicketRequest]) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 19:53:13.941 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__request_TicketCode_0
+2025-03-01 19:53:14.025 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@__ticketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[Price], [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b0].[Quantity]), 0)
+    FROM [BookedTickets] AS [b0]
+    WHERE [b0].[TicketCode] = [t].[TicketCode]), 0) AS [AvailableQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__ticketCode_0 AND [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b].[Quantity]), 0)
+    FROM [BookedTickets] AS [b]
+    WHERE [b].[TicketCode] = [t].[TicketCode]), 0) > 0
+2025-03-01 19:53:14.169 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (DbType = Int32), @p2='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BookedTickets] ([BookingId], [Quantity], [TicketCode])
+VALUES (@p0, @p1, @p2);
+2025-03-01 19:53:14.191 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[BryanJonatan_Acceloka.Model.BookTicketResponse, BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType4`2[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-01 19:53:14.200 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka) in 354.2124ms
+2025-03-01 19:53:14.200 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-01 19:53:14.201 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7035/api/v1/book-ticket - 200 null application/json; charset=utf-8 366.9555ms
+2025-03-01 19:54:51.396 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:54:51.415 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 19.0648ms
+2025-03-01 19:54:51.437 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:54:51.440 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:54:51.440 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:54:51.441 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 0.6006ms
+2025-03-01 19:54:51.441 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.3047ms
+2025-03-01 19:54:51.466 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.6524ms
+2025-03-01 19:54:51.491 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:54:51.495 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.048ms
+2025-03-01 19:57:05.316 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 19:57:05.324 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 19:57:05.408 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 19:57:05.411 +07:00 [INF] Hosting environment: Development
+2025-03-01 19:57:05.413 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 19:57:05.871 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:57:06.011 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 146.7139ms
+2025-03-01 19:57:06.025 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:57:06.025 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:57:06.025 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:57:06.027 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 2.103ms
+2025-03-01 19:57:06.033 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 8.2669ms
+2025-03-01 19:57:06.052 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.0685ms
+2025-03-01 19:57:06.080 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:57:06.094 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1332ms
+2025-03-01 19:58:35.469 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 19:58:35.477 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 19:58:35.549 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 19:58:35.552 +07:00 [INF] Hosting environment: Development
+2025-03-01 19:58:35.553 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 19:58:36.213 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 19:58:36.353 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 145.3834ms
+2025-03-01 19:58:36.360 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 19:58:36.360 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 19:58:36.360 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 19:58:36.362 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 2.4873ms
+2025-03-01 19:58:36.377 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 17.7737ms
+2025-03-01 19:58:36.398 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.624ms
+2025-03-01 19:58:36.423 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 19:58:36.438 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.7143ms
+2025-03-01 19:58:47.006 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 19:58:47.014 +07:00 [INF] CORS policy execution failed.
+2025-03-01 19:58:47.015 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 19:58:47.018 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 13.8238ms
+2025-03-01 19:58:47.021 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 19:59:29.646 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket.json - null null
+2025-03-01 19:59:29.653 +07:00 [INF] CORS policy execution failed.
+2025-03-01 19:59:29.653 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 19:59:29.654 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket.json - 404 0 null 8.1256ms
+2025-03-01 19:59:29.654 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-booked-ticket.json, Response status code: 404
+2025-03-01 19:59:30.522 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket.json - null null
+2025-03-01 19:59:30.530 +07:00 [INF] CORS policy execution failed.
+2025-03-01 19:59:30.530 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 19:59:30.533 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket.json - 404 0 null 10.9284ms
+2025-03-01 19:59:30.533 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-booked-ticket.json, Response status code: 404
+2025-03-01 20:00:04.203 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 20:00:04.213 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:00:04.213 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:00:04.214 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:04.214 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:04.214 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 12.039ms
+2025-03-01 20:00:04.217 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 20:00:04.218 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:00:04.218 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:00:04.218 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:04.218 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:04.219 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 2.8619ms
+2025-03-01 20:00:05.822 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 20:00:05.824 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:00:05.824 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:00:05.824 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:05.824 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:05.825 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 4.1032ms
+2025-03-01 20:00:06.562 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 20:00:06.563 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:00:06.563 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:00:06.563 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:06.563 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:00:06.563 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 1.1763ms
+2025-03-01 20:01:50.377 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 20:01:50.385 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 20:01:50.463 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 20:01:50.465 +07:00 [INF] Hosting environment: Development
+2025-03-01 20:01:50.467 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 20:01:50.714 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 20:01:50.877 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 168.1399ms
+2025-03-01 20:01:50.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 20:01:50.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 20:01:50.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 20:01:50.894 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 4.3729ms
+2025-03-01 20:01:50.906 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 17.1098ms
+2025-03-01 20:01:50.924 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1646ms
+2025-03-01 20:01:50.949 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 20:01:50.963 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0405ms
+2025-03-01 20:02:05.849 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html/todos?_limit=5 - null null
+2025-03-01 20:02:05.869 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:02:05.870 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:02:05.875 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html/todos?_limit=5 - 404 0 null 26.323ms
+2025-03-01 20:02:05.879 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/index.html/todos, Response status code: 404
+2025-03-01 20:03:34.240 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 20:03:34.244 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:03:34.244 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:03:34.244 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 4.8563ms
+2025-03-01 20:03:34.245 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 20:04:22.701 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 20:04:22.708 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:04:22.708 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:04:22.708 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 12.0801ms
+2025-03-01 20:04:22.708 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 20:04:22.710 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 20:04:22.710 +07:00 [INF] CORS policy execution failed.
+2025-03-01 20:04:22.710 +07:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-03-01 20:04:22.711 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 0.6791ms
+2025-03-01 20:04:22.711 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 20:06:00.993 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-01 20:06:01.000 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-01 20:06:01.146 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-01 20:06:01.148 +07:00 [INF] Hosting environment: Development
+2025-03-01 20:06:01.150 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\Acceloka Exam\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-01 20:06:01.518 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 20:06:01.653 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 141.5985ms
+2025-03-01 20:06:01.664 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 20:06:01.664 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 20:06:01.664 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 20:06:01.667 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 2.8195ms
+2025-03-01 20:06:01.684 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 20.2864ms
+2025-03-01 20:06:01.703 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.6463ms
+2025-03-01 20:06:01.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 20:06:01.741 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9521ms
+2025-03-01 20:06:08.409 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - null null
+2025-03-01 20:06:08.424 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:06:08.432 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket.json - 404 0 null 23.0201ms
+2025-03-01 20:06:08.434 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/book-ticket.json, Response status code: 404
+2025-03-01 20:08:01.921 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 20:08:01.936 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 15.2236ms
+2025-03-01 20:08:01.956 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 20:08:01.956 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 20:08:01.956 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 20:08:01.958 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.44ms
+2025-03-01 20:08:01.963 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 5.712ms
+2025-03-01 20:08:01.979 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.5372ms
+2025-03-01 20:08:02.013 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 20:08:02.019 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.7136ms
+2025-03-01 20:11:12.457 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-01 20:11:12.470 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 14.4431ms
+2025-03-01 20:11:12.523 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-01 20:11:12.527 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-01 20:11:12.527 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-01 20:11:12.529 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 1.4642ms
+2025-03-01 20:11:12.529 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.2913ms
+2025-03-01 20:11:12.557 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8181ms
+2025-03-01 20:11:12.581 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 20:11:12.588 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1232ms
+2025-03-01 20:12:30.507 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:12:30.520 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:12:30.524 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:12:30.564 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:12:32.588 +07:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:12:32.710 +07:00 [INF] Executed DbCommand (26ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:12:32.844 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:12:32.853 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:12:32.857 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:12:32.870 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:12:32.893 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 2324.2492ms
+2025-03-01 20:12:32.894 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:12:32.904 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 2397.8158ms
+2025-03-01 20:13:12.090 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:13:12.111 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:13:12.111 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:13:12.174 +07:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:13:12.185 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:13:12.194 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:13:12.198 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:13:12.202 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:13:12.205 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:13:12.206 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 94.4438ms
+2025-03-01 20:13:12.206 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:13:12.206 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 116.0085ms
+2025-03-01 20:14:47.076 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:14:47.076 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:14:47.076 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:14:47.077 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:14:47.165 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:14:47.175 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:14:47.183 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:14:47.187 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:14:47.192 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:14:47.192 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:14:47.193 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 115.883ms
+2025-03-01 20:14:47.193 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:14:47.193 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 119.1507ms
+2025-03-01 20:17:03.686 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:17:03.686 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:17:03.686 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:17:03.686 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:17:03.717 +07:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:17:03.725 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:17:03.732 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:17:03.739 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:17:03.744 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:17:03.744 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:17:03.744 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 57.8323ms
+2025-03-01 20:17:03.744 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:17:03.745 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 58.7381ms
+2025-03-01 20:17:03.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:17:03.748 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:17:03.748 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:17:03.748 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:17:03.757 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:17:03.761 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:17:03.765 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:17:03.770 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:17:03.773 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:17:03.773 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:17:03.773 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 24.8496ms
+2025-03-01 20:17:03.773 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:17:03.774 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 27.0989ms
+2025-03-01 20:17:27.593 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket - null null
+2025-03-01 20:17:27.594 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:17:27.594 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket - 404 0 null 1.2685ms
+2025-03-01 20:17:27.594 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-booked-ticket, Response status code: 404
+2025-03-01 20:18:03.378 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - null null
+2025-03-01 20:18:03.379 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:18:03.379 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-01 20:18:03.398 +07:00 [INF] Route matched with {action = "GetBookedTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicket(System.String) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:18:03.505 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__bookedTicketId_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[BookingId], [b].[Quantity], [b].[TicketCode], [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [BookedTickets] AS [b]
+LEFT JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookingId] = @__bookedTicketId_0
+2025-03-01 20:18:03.528 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:18:03.537 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka) in 139.0564ms
+2025-03-01 20:18:03.537 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-01 20:18:03.538 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - 200 null application/json; charset=utf-8 160.1238ms
+2025-03-01 20:18:28.001 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-01 20:18:28.028 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.8166ms
+2025-03-01 20:18:45.724 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - null null
+2025-03-01 20:18:45.726 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:18:45.727 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json/todos?_limit=5 - 404 0 null 2.8649ms
+2025-03-01 20:18:45.727 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger.json/todos, Response status code: 404
+2025-03-01 20:19:08.537 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html/todos?_limit=5 - null null
+2025-03-01 20:19:08.542 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:19:08.542 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html/todos?_limit=5 - 404 0 null 5.523ms
+2025-03-01 20:19:08.542 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/index.html/todos, Response status code: 404
+2025-03-01 20:19:35.101 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html/todos?_limit=5 - null null
+2025-03-01 20:19:35.101 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:19:35.101 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html/todos?_limit=5 - 404 0 null 0.8427ms
+2025-03-01 20:19:35.101 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/index.html/todos, Response status code: 404
+2025-03-01 20:19:40.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:19:40.711 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:19:40.711 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:19:40.713 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:19:40.740 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:19:40.745 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:19:40.752 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:19:40.755 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:19:40.758 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:19:40.758 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:19:40.758 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 45.7374ms
+2025-03-01 20:19:40.758 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:19:40.759 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 49.6296ms
+2025-03-01 20:20:11.911 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index - null null
+2025-03-01 20:20:11.911 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:20:11.912 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index - 404 0 null 2.8548ms
+2025-03-01 20:20:11.912 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/index, Response status code: 404
+2025-03-01 20:20:33.752 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger - null null
+2025-03-01 20:20:33.752 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:20:33.753 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger - 404 0 null 1.8541ms
+2025-03-01 20:20:33.754 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/swagger, Response status code: 404
+2025-03-01 20:20:49.722 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/Api/v1 - null null
+2025-03-01 20:20:49.722 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:20:49.723 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/Api/v1 - 404 0 null 1.1969ms
+2025-03-01 20:20:49.723 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/Api/v1, Response status code: 404
+2025-03-01 20:21:00.127 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1 - null null
+2025-03-01 20:21:00.127 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:21:00.127 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1 - 404 0 null 0.6719ms
+2025-03-01 20:21:00.127 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1, Response status code: 404
+2025-03-01 20:21:42.657 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/todos?_limit=5 - null null
+2025-03-01 20:21:42.657 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:21:42.658 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/todos?_limit=5 - 404 0 null 1.1918ms
+2025-03-01 20:21:42.658 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/todos, Response status code: 404
+2025-03-01 20:21:56.116 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/todos?_limit=5 - null null
+2025-03-01 20:21:56.116 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:21:56.116 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/todos?_limit=5 - 404 0 null 12.4379ms
+2025-03-01 20:21:56.116 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/swagger/v1/todos, Response status code: 404
+2025-03-01 20:22:15.238 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:22:15.238 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:22:15.239 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:22:15.239 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:22:15.262 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:22:15.268 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:22:15.275 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:22:15.278 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:22:15.282 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:22:15.282 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:22:15.283 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 43.7225ms
+2025-03-01 20:22:15.283 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:22:15.283 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 44.9655ms
+2025-03-01 20:22:26.984 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/ - null null
+2025-03-01 20:22:26.984 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:22:26.985 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/ - 404 0 null 1.029ms
+2025-03-01 20:22:26.985 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/, Response status code: 404
+2025-03-01 20:22:37.529 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1 - null null
+2025-03-01 20:22:37.529 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:22:37.529 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1 - 404 0 null 7.3518ms
+2025-03-01 20:22:37.529 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1, Response status code: 404
+2025-03-01 20:23:31.282 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1 - null null
+2025-03-01 20:23:31.282 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:23:31.282 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1 - 404 0 null 5.628ms
+2025-03-01 20:23:31.282 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1, Response status code: 404
+2025-03-01 20:24:40.749 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1 - null null
+2025-03-01 20:24:40.751 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:24:40.752 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1 - 404 0 null 2.6462ms
+2025-03-01 20:24:40.752 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1, Response status code: 404
+2025-03-01 20:25:10.483 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1todos?_limit=5 - null null
+2025-03-01 20:25:10.484 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:25:10.485 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1todos?_limit=5 - 404 0 null 1.2569ms
+2025-03-01 20:25:10.485 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1todos, Response status code: 404
+2025-03-01 20:25:24.521 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/todos?_limit=5 - null null
+2025-03-01 20:25:24.522 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:25:24.524 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/todos?_limit=5 - 404 0 null 2.9682ms
+2025-03-01 20:25:24.524 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/todos, Response status code: 404
+2025-03-01 20:30:34.049 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:30:34.055 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:30:34.055 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:30:34.058 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:30:34.094 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:30:34.101 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:30:34.108 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:30:34.112 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:30:34.116 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:30:34.116 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:30:34.116 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 57.9797ms
+2025-03-01 20:30:34.116 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:30:34.116 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 71.8926ms
+2025-03-01 20:32:00.515 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:32:00.516 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:00.516 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:32:00.516 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:32:00.574 +07:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:32:00.578 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:32:00.584 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:00.587 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:00.589 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:00.589 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:32:00.590 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 73.7464ms
+2025-03-01 20:32:00.590 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:32:00.590 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 74.5915ms
+2025-03-01 20:32:00.593 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:32:00.594 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:00.594 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:32:00.595 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:32:00.603 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:32:00.606 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:32:00.610 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:00.613 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:00.622 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:00.622 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:32:00.622 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 26.6378ms
+2025-03-01 20:32:00.622 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:32:00.622 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 30.9743ms
+2025-03-01 20:32:03.622 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 20:32:03.623 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:03.623 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:32:03.623 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:32:03.623 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 1.4788ms
+2025-03-01 20:32:11.344 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket - null null
+2025-03-01 20:32:11.345 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:11.345 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket - 404 0 null 1.266ms
+2025-03-01 20:32:11.345 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/get-booked-ticket, Response status code: 404
+2025-03-01 20:32:13.189 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/revoke-ticket - null null
+2025-03-01 20:32:13.190 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:13.192 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/revoke-ticket - 404 0 null 3.5771ms
+2025-03-01 20:32:13.192 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/revoke-ticket, Response status code: 404
+2025-03-01 20:32:14.755 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/edit-booked-ticket - null null
+2025-03-01 20:32:14.758 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:14.759 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/edit-booked-ticket - 404 0 null 3.4332ms
+2025-03-01 20:32:14.759 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/edit-booked-ticket, Response status code: 404
+2025-03-01 20:32:18.297 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-01 20:32:18.298 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:18.298 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:32:18.298 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.String, System.String, Int32, Int32) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-01 20:32:18.310 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-01 20:32:18.314 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-01 20:32:18.316 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:18.318 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:18.320 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-01 20:32:18.321 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType0`6[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-01 20:32:18.321 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 22.5753ms
+2025-03-01 20:32:18.321 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-01 20:32:18.321 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 25.0795ms
+2025-03-01 20:32:33.466 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/book-ticket - null null
+2025-03-01 20:32:33.467 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:32:33.467 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:32:33.467 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-01 20:32:33.467 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/book-ticket - 405 0 null 0.7664ms
+2025-03-01 20:34:22.375 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:22.376 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:22.376 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.6189ms
+2025-03-01 20:34:22.376 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:23.619 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:23.619 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:23.619 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 1.6071ms
+2025-03-01 20:34:23.619 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:23.978 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:23.978 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:23.979 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 1.6709ms
+2025-03-01 20:34:23.979 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:24.249 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:24.250 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:24.250 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 1.7982ms
+2025-03-01 20:34:24.250 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:24.444 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:24.445 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:24.445 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 1.5875ms
+2025-03-01 20:34:24.445 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:24.845 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:24.845 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:24.845 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.4888ms
+2025-03-01 20:34:24.845 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:25.200 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:25.200 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:25.200 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.6431ms
+2025-03-01 20:34:25.201 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:27.408 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:27.408 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:27.408 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.6627ms
+2025-03-01 20:34:27.408 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:28.996 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:28.996 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:28.997 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.3365ms
+2025-03-01 20:34:28.997 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:30.006 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:30.006 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:30.006 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.597ms
+2025-03-01 20:34:30.006 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:34.004 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:34.004 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:34.005 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.9302ms
+2025-03-01 20:34:34.005 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:34.992 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:34.992 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:34.992 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 1.282ms
+2025-03-01 20:34:34.992 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:35.993 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:35.993 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:35.993 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.2571ms
+2025-03-01 20:34:35.993 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:34:37.997 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:34:37.997 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:34:37.997 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.325ms
+2025-03-01 20:34:37.997 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:35:17.310 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:35:17.310 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:35:17.311 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 1.3581ms
+2025-03-01 20:35:17.311 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:35:22.987 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:35:22.988 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:35:22.988 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.8415ms
+2025-03-01 20:35:22.988 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
+2025-03-01 20:35:51.912 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/5 - null null
+2025-03-01 20:35:51.913 +07:00 [INF] CORS policy execution successful.
+2025-03-01 20:35:51.914 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/5 - 404 0 null 0.5403ms
+2025-03-01 20:35:51.914 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7035/api/v1/5, Response status code: 404
