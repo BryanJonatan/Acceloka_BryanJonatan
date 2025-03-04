@@ -1,0 +1,411 @@
+2025-03-04 15:04:12.531 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 15:04:12.539 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 15:04:12.620 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 15:04:12.624 +07:00 [INF] Hosting environment: Development
+2025-03-04 15:04:12.626 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 15:04:13.321 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 15:04:13.496 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 182.5449ms
+2025-03-04 15:04:13.507 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 15:04:13.507 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 15:04:13.507 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 15:04:13.508 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 1.5951ms
+2025-03-04 15:04:13.531 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 24.2366ms
+2025-03-04 15:04:13.573 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.9729ms
+2025-03-04 15:04:13.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 15:04:13.648 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8745ms
+2025-03-04 15:06:45.904 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000&OrderBy=TicketCode&OrderState=asc&PageNumber=1&PageSize=10 - null null
+2025-03-04 15:06:45.930 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:06:45.952 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:06:46.032 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'BryanJonatan_Acceloka.Controllers.TicketsController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-04 15:06:46.060 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000&OrderBy=TicketCode&OrderState=asc&PageNumber=1&PageSize=10 - 500 null application/problem+json 156.5603ms
+2025-03-04 15:08:07.855 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 15:08:07.863 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 15:08:07.932 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 15:08:07.933 +07:00 [INF] Hosting environment: Development
+2025-03-04 15:08:07.934 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 15:08:08.523 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 15:08:08.649 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 132.8043ms
+2025-03-04 15:08:08.662 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 15:08:08.662 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 15:08:08.662 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 15:08:08.664 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 2.3527ms
+2025-03-04 15:08:08.675 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 13.5571ms
+2025-03-04 15:08:08.696 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3985ms
+2025-03-04 15:08:08.791 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 15:08:08.808 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8667ms
+2025-03-04 15:08:54.875 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000&OrderBy=TicketCode&OrderState=asc&PageNumber=10&PageSize=10 - null null
+2025-03-04 15:08:54.893 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:08:54.928 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(BryanJonatan_Acceloka.Model.GetAvailableTicketsQuery) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 15:08:56.704 +07:00 [INF] Executed DbCommand (73ms) [Parameters=[@__request_CategoryName_0_contains='?' (Size = 255), @__request_TicketCode_1_contains='?' (Size = 255), @__request_TicketName_2_contains='?' (Size = 255), @__request_Price_Value_3='?' (DbType = Int32), @__request_EventDateMin_Value_4='?' (DbType = DateTime2), @__request_EventDateMax_Value_5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+WHERE [t].[CategoryName] LIKE @__request_CategoryName_0_contains ESCAPE N'\' AND [t].[TicketCode] LIKE @__request_TicketCode_1_contains ESCAPE N'\' AND [t].[TicketName] LIKE @__request_TicketName_2_contains ESCAPE N'\' AND [t].[Price] <= @__request_Price_Value_3 AND [t].[EventDateMinimum] >= @__request_EventDateMin_Value_4 AND [t].[EventDateMaximum] <= @__request_EventDateMax_Value_5
+2025-03-04 15:08:56.823 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__request_CategoryName_0_contains='?' (Size = 255), @__request_TicketCode_1_contains='?' (Size = 255), @__request_TicketName_2_contains='?' (Size = 255), @__request_Price_Value_3='?' (DbType = Int32), @__request_EventDateMin_Value_4='?' (DbType = DateTime2), @__request_EventDateMax_Value_5='?' (DbType = DateTime2), @__p_6='?' (DbType = Int32), @__p_7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[CategoryName] LIKE @__request_CategoryName_0_contains ESCAPE N'\' AND [t].[TicketCode] LIKE @__request_TicketCode_1_contains ESCAPE N'\' AND [t].[TicketName] LIKE @__request_TicketName_2_contains ESCAPE N'\' AND [t].[Price] <= @__request_Price_Value_3 AND [t].[EventDateMinimum] >= @__request_EventDateMin_Value_4 AND [t].[EventDateMaximum] <= @__request_EventDateMax_Value_5
+ORDER BY [t].[TicketCode]
+OFFSET @__p_6 ROWS FETCH NEXT @__p_7 ROWS ONLY
+2025-03-04 15:08:56.833 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetAvailableTicketsResponse'.
+2025-03-04 15:08:56.869 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 1926.0275ms
+2025-03-04 15:08:56.870 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:08:56.877 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000&OrderBy=TicketCode&OrderState=asc&PageNumber=10&PageSize=10 - 200 null application/json; charset=utf-8 2002.4907ms
+2025-03-04 15:09:36.535 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000 - null null
+2025-03-04 15:09:36.539 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:09:36.539 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(BryanJonatan_Acceloka.Model.GetAvailableTicketsQuery) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 15:09:36.576 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@__request_CategoryName_0_contains='?' (Size = 255), @__request_TicketCode_1_contains='?' (Size = 255), @__request_TicketName_2_contains='?' (Size = 255), @__request_Price_Value_3='?' (DbType = Int32), @__request_EventDateMin_Value_4='?' (DbType = DateTime2), @__request_EventDateMax_Value_5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+WHERE [t].[CategoryName] LIKE @__request_CategoryName_0_contains ESCAPE N'\' AND [t].[TicketCode] LIKE @__request_TicketCode_1_contains ESCAPE N'\' AND [t].[TicketName] LIKE @__request_TicketName_2_contains ESCAPE N'\' AND [t].[Price] <= @__request_Price_Value_3 AND [t].[EventDateMinimum] >= @__request_EventDateMin_Value_4 AND [t].[EventDateMaximum] <= @__request_EventDateMax_Value_5
+2025-03-04 15:09:36.583 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_CategoryName_0_contains='?' (Size = 255), @__request_TicketCode_1_contains='?' (Size = 255), @__request_TicketName_2_contains='?' (Size = 255), @__request_Price_Value_3='?' (DbType = Int32), @__request_EventDateMin_Value_4='?' (DbType = DateTime2), @__request_EventDateMax_Value_5='?' (DbType = DateTime2), @__p_6='?' (DbType = Int32), @__p_7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[CategoryName] LIKE @__request_CategoryName_0_contains ESCAPE N'\' AND [t].[TicketCode] LIKE @__request_TicketCode_1_contains ESCAPE N'\' AND [t].[TicketName] LIKE @__request_TicketName_2_contains ESCAPE N'\' AND [t].[Price] <= @__request_Price_Value_3 AND [t].[EventDateMinimum] >= @__request_EventDateMin_Value_4 AND [t].[EventDateMaximum] <= @__request_EventDateMax_Value_5
+ORDER BY [t].[TicketCode]
+OFFSET @__p_6 ROWS FETCH NEXT @__p_7 ROWS ONLY
+2025-03-04 15:09:36.685 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-04 15:09:36.692 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetAvailableTicketsResponse'.
+2025-03-04 15:09:36.699 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 159.5855ms
+2025-03-04 15:09:36.699 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:09:36.699 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000 - 200 null application/json; charset=utf-8 165.2332ms
+2025-03-04 15:09:55.842 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000&OrderState=desc - null null
+2025-03-04 15:09:55.843 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:09:55.843 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(BryanJonatan_Acceloka.Model.GetAvailableTicketsQuery) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 15:09:55.921 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_CategoryName_0_contains='?' (Size = 255), @__request_TicketCode_1_contains='?' (Size = 255), @__request_TicketName_2_contains='?' (Size = 255), @__request_Price_Value_3='?' (DbType = Int32), @__request_EventDateMin_Value_4='?' (DbType = DateTime2), @__request_EventDateMax_Value_5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+WHERE [t].[CategoryName] LIKE @__request_CategoryName_0_contains ESCAPE N'\' AND [t].[TicketCode] LIKE @__request_TicketCode_1_contains ESCAPE N'\' AND [t].[TicketName] LIKE @__request_TicketName_2_contains ESCAPE N'\' AND [t].[Price] <= @__request_Price_Value_3 AND [t].[EventDateMinimum] >= @__request_EventDateMin_Value_4 AND [t].[EventDateMaximum] <= @__request_EventDateMax_Value_5
+2025-03-04 15:09:55.938 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_CategoryName_0_contains='?' (Size = 255), @__request_TicketCode_1_contains='?' (Size = 255), @__request_TicketName_2_contains='?' (Size = 255), @__request_Price_Value_3='?' (DbType = Int32), @__request_EventDateMin_Value_4='?' (DbType = DateTime2), @__request_EventDateMax_Value_5='?' (DbType = DateTime2), @__p_6='?' (DbType = Int32), @__p_7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[CategoryName] LIKE @__request_CategoryName_0_contains ESCAPE N'\' AND [t].[TicketCode] LIKE @__request_TicketCode_1_contains ESCAPE N'\' AND [t].[TicketName] LIKE @__request_TicketName_2_contains ESCAPE N'\' AND [t].[Price] <= @__request_Price_Value_3 AND [t].[EventDateMinimum] >= @__request_EventDateMin_Value_4 AND [t].[EventDateMaximum] <= @__request_EventDateMax_Value_5
+ORDER BY [t].[TicketCode] DESC
+OFFSET @__p_6 ROWS FETCH NEXT @__p_7 ROWS ONLY
+2025-03-04 15:09:55.947 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-04 15:09:55.947 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetAvailableTicketsResponse'.
+2025-03-04 15:09:55.948 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 104.0406ms
+2025-03-04 15:09:55.948 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-04 15:09:55.948 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?CategoryName=Cinema&TicketCode=C001&TicketName=Ironman%20CGV&Price=5000000&EventDateMin=2025-05-06%2012%3A00%3A00.000&EventDateMax=2025-07-07%2012%3A00%3A00.000&OrderState=desc - 200 null application/json; charset=utf-8 106.4305ms
+2025-03-04 15:10:14.893 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7035/api/v1/book-ticket - application/json 82
+2025-03-04 15:10:14.897 +07:00 [INF] CORS policy execution successful.
+2025-03-04 15:10:14.898 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 15:10:14.903 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BryanJonatan_Acceloka.Model.BookTicketResponse2]] BookTicket(BryanJonatan_Acceloka.Model.BookTicketCommand) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 15:10:14.961 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ticket_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__ticket_TicketCode_0
+2025-03-04 15:10:15.144 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (DbType = Int32), @p2='?' (Size = 255), @p4='?' (Size = 255), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [BookedTickets] ([BookingId], [Quantity], [TicketCode])
+VALUES (@p0, @p1, @p2);
+UPDATE [Tickets] SET [Quota] = @p3
+OUTPUT 1
+WHERE [TicketCode] = @p4;
+2025-03-04 15:10:15.165 +07:00 [INF] Executing ObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.BookTicketResponse2'.
+2025-03-04 15:10:15.167 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka) in 264.0823ms
+2025-03-04 15:10:15.167 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 15:10:15.167 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7035/api/v1/book-ticket - 200 null application/json; charset=utf-8 274.7536ms
+2025-03-04 16:18:55.173 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 16:18:55.193 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 16:18:55.266 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 16:18:55.268 +07:00 [INF] Hosting environment: Development
+2025-03-04 16:18:55.270 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 16:18:55.372 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 16:18:55.510 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 145.3246ms
+2025-03-04 16:18:55.521 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 16:18:55.521 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 16:18:55.521 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 16:18:55.523 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 1.8647ms
+2025-03-04 16:18:55.529 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 7.83ms
+2025-03-04 16:18:55.547 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.9375ms
+2025-03-04 16:18:55.611 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 16:18:55.625 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.984ms
+2025-03-04 16:19:20.178 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - null null
+2025-03-04 16:19:20.195 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:19:20.223 +07:00 [INF] Route matched with {action = "GetBookedTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicket(System.String) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:19:22.393 +07:00 [INF] Executed DbCommand (71ms) [Parameters=[@__request_BookedTicketId_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[BookingId], [b].[Quantity], [b].[TicketCode], [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [BookedTickets] AS [b]
+LEFT JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookingId] = @__request_BookedTicketId_0
+2025-03-04 16:19:22.535 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetBookedTicketResponse'.
+2025-03-04 16:19:22.558 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka) in 2329.1978ms
+2025-03-04 16:19:22.559 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:19:22.566 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - 200 null application/json; charset=utf-8 2389.3305ms
+2025-03-04 16:19:44.168 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7035/api/v1/book-ticket - application/json 91
+2025-03-04 16:19:44.182 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:19:44.183 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:19:44.189 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(BryanJonatan_Acceloka.Model.BookTicketCommand) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:19:44.289 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[@__bookingRequest_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__bookingRequest_TicketCode_0
+2025-03-04 16:19:44.352 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ticketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[Price], [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b0].[Quantity]), 0)
+    FROM [BookedTickets] AS [b0]
+    WHERE [b0].[TicketCode] = [t].[TicketCode]), 0) AS [AvailableQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__ticketCode_0 AND [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b].[Quantity]), 0)
+    FROM [BookedTickets] AS [b]
+    WHERE [b].[TicketCode] = [t].[TicketCode]), 0) > 0
+2025-03-04 16:19:44.576 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka) in 387.0582ms
+2025-03-04 16:19:44.577 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:19:44.645 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The event date has already passed.
+   at BryanJonatan_Acceloka.Handlers.BookTicketHandler.Handle(BookTicketCommand request, CancellationToken cancellationToken) in C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka\Handlers\BookTicketHandler.cs:line 51
+   at BryanJonatan_Acceloka.Handlers.BookTicketHandler.Handle(BookTicketCommand request, CancellationToken cancellationToken) in C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka\Handlers\BookTicketHandler.cs:line 97
+   at BryanJonatan_Acceloka.Handlers.BookTicketHandler.Handle(BookTicketCommand request, CancellationToken cancellationToken) in C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka\Handlers\BookTicketHandler.cs:line 98
+   at BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket(BookTicketCommand command) in C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka\Controllers\TicketControllers.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-04 16:19:44.660 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7035/api/v1/book-ticket - 500 null application/problem+json 492.1276ms
+2025-03-04 16:20:01.051 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7035/api/v1/book-ticket - application/json 90
+2025-03-04 16:20:01.051 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:20:01.051 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:20:01.052 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(BryanJonatan_Acceloka.Model.BookTicketCommand) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:20:01.139 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__bookingRequest_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__bookingRequest_TicketCode_0
+2025-03-04 16:20:01.148 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ticketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[Price], [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b0].[Quantity]), 0)
+    FROM [BookedTickets] AS [b0]
+    WHERE [b0].[TicketCode] = [t].[TicketCode]), 0) AS [AvailableQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__ticketCode_0 AND [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b].[Quantity]), 0)
+    FROM [BookedTickets] AS [b]
+    WHERE [b].[TicketCode] = [t].[TicketCode]), 0) > 0
+2025-03-04 16:20:01.253 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (DbType = Int32), @p2='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BookedTickets] ([BookingId], [Quantity], [TicketCode])
+VALUES (@p0, @p1, @p2);
+2025-03-04 16:20:01.270 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.BookTicketResponseDto'.
+2025-03-04 16:20:01.276 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka) in 224.2952ms
+2025-03-04 16:20:01.276 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:20:01.276 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7035/api/v1/book-ticket - 200 null application/json; charset=utf-8 225.843ms
+2025-03-04 16:20:40.493 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7035/api/v1/book-ticket - application/json 91
+2025-03-04 16:20:40.498 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:20:40.498 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:20:40.498 +07:00 [INF] Route matched with {action = "BookTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] BookTicket(BryanJonatan_Acceloka.Model.BookTicketCommand) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:20:40.522 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__bookingRequest_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__bookingRequest_TicketCode_0
+2025-03-04 16:20:40.528 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ticketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CategoryName], [t].[TicketCode], [t].[TicketName], [t].[Price], [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b0].[Quantity]), 0)
+    FROM [BookedTickets] AS [b0]
+    WHERE [b0].[TicketCode] = [t].[TicketCode]), 0) AS [AvailableQuota]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__ticketCode_0 AND [t].[Quota] - COALESCE((
+    SELECT COALESCE(SUM([b].[Quantity]), 0)
+    FROM [BookedTickets] AS [b]
+    WHERE [b].[TicketCode] = [t].[TicketCode]), 0) > 0
+2025-03-04 16:20:40.533 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (DbType = Int32), @p2='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BookedTickets] ([BookingId], [Quantity], [TicketCode])
+VALUES (@p0, @p1, @p2);
+2025-03-04 16:20:40.536 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.BookTicketResponseDto'.
+2025-03-04 16:20:40.536 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka) in 35.7436ms
+2025-03-04 16:20:40.536 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.BookTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:20:40.537 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7035/api/v1/book-ticket - 200 null application/json; charset=utf-8 44.2467ms
+2025-03-04 16:21:10.539 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 16:21:10.546 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 16:21:10.612 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 16:21:10.614 +07:00 [INF] Hosting environment: Development
+2025-03-04 16:21:10.615 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 16:21:10.925 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 16:21:11.057 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 137.2997ms
+2025-03-04 16:21:11.068 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 16:21:11.069 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 16:21:11.070 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 16:21:11.076 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 6.9291ms
+2025-03-04 16:21:11.098 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 29.9638ms
+2025-03-04 16:21:11.121 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.4221ms
+2025-03-04 16:21:11.188 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 16:21:11.203 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.4919ms
+2025-03-04 16:21:23.614 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/b0d74379-2405-497b-b2d8-966168991639 - null null
+2025-03-04 16:21:23.621 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:21:23.647 +07:00 [INF] Route matched with {action = "GetBookedTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookedTicket(System.String) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:21:25.049 +07:00 [INF] Executed DbCommand (56ms) [Parameters=[@__request_BookedTicketId_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[BookingId], [b].[Quantity], [b].[TicketCode], [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [BookedTickets] AS [b]
+LEFT JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookingId] = @__request_BookedTicketId_0
+2025-03-04 16:21:25.146 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetBookedTicketResponse'.
+2025-03-04 16:21:25.163 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka) in 1512.5023ms
+2025-03-04 16:21:25.165 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetBookedTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:21:25.174 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-booked-ticket/b0d74379-2405-497b-b2d8-966168991639 - 200 null application/json; charset=utf-8 1560.5523ms
+2025-03-04 16:25:45.214 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 16:25:45.222 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 16:25:45.295 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 16:25:45.298 +07:00 [INF] Hosting environment: Development
+2025-03-04 16:25:45.300 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 16:25:45.737 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 16:25:45.898 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 167.3821ms
+2025-03-04 16:25:45.911 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 16:25:45.911 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 16:25:45.911 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 16:25:45.912 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 1.4472ms
+2025-03-04 16:25:45.921 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 10.2807ms
+2025-03-04 16:25:45.939 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.6163ms
+2025-03-04 16:25:46.003 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 16:25:46.018 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.918ms
+2025-03-04 16:26:05.872 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/{bookedTicketId}/{ticketCode}/{qty} - null null
+2025-03-04 16:26:05.881 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:26:05.886 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:26:05.920 +07:00 [INF] Route matched with {action = "RevokeTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeTicket(BryanJonatan_Acceloka.Model.RevokeTicketCommand, FluentValidation.IValidator`1[BryanJonatan_Acceloka.Model.RevokeTicketCommand]) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:26:05.983 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-04 16:26:06.014 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka) in 90.6262ms
+2025-03-04 16:26:06.015 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:26:06.015 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/{bookedTicketId}/{ticketCode}/{qty} - 400 null application/problem+json; charset=utf-8 142.9238ms
+2025-03-04 16:26:14.090 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/{bookedTicketId}/{ticketCode}/{qty} - null null
+2025-03-04 16:26:14.092 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:26:14.092 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:26:14.092 +07:00 [INF] Route matched with {action = "RevokeTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeTicket(BryanJonatan_Acceloka.Model.RevokeTicketCommand, FluentValidation.IValidator`1[BryanJonatan_Acceloka.Model.RevokeTicketCommand]) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:26:14.095 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-04 16:26:14.096 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka) in 3.2171ms
+2025-03-04 16:26:14.096 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:26:14.096 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/{bookedTicketId}/{ticketCode}/{qty} - 400 null application/problem+json; charset=utf-8 6.1071ms
+2025-03-04 16:26:47.401 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/{bookedTicketId}/{ticketCode}/{qty} - null null
+2025-03-04 16:26:47.409 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:26:47.409 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:26:47.409 +07:00 [INF] Route matched with {action = "RevokeTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeTicket(BryanJonatan_Acceloka.Model.RevokeTicketCommand, FluentValidation.IValidator`1[BryanJonatan_Acceloka.Model.RevokeTicketCommand]) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:26:47.415 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-03-04 16:26:47.415 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka) in 5.6156ms
+2025-03-04 16:26:47.415 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:26:47.415 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/{bookedTicketId}/{ticketCode}/{qty} - 400 null application/problem+json; charset=utf-8 14.4932ms
+2025-03-04 16:28:46.885 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 16:28:46.896 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 16:28:46.978 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 16:28:46.980 +07:00 [INF] Hosting environment: Development
+2025-03-04 16:28:46.981 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 16:28:47.248 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 16:28:47.386 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 143.9536ms
+2025-03-04 16:28:47.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 16:28:47.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 16:28:47.399 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 16:28:47.400 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 1.976ms
+2025-03-04 16:28:47.415 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 17.1381ms
+2025-03-04 16:28:47.437 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.4226ms
+2025-03-04 16:28:47.493 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 16:28:47.510 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.94ms
+2025-03-04 16:29:05.182 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/b0d74379-2405-497b-b2d8-966168991639/TL001/2 - null null
+2025-03-04 16:29:05.190 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:29:05.195 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:29:05.226 +07:00 [INF] Route matched with {action = "RevokeTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeTicket(System.String, System.String, Int32, FluentValidation.IValidator`1[BryanJonatan_Acceloka.Model.RevokeTicketCommand]) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:29:06.702 +07:00 [INF] Executed DbCommand (48ms) [Parameters=[@__request_BookedTicketId_0='?' (Size = 255), @__request_TicketCode_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[BookingId], [b].[Quantity], [b].[TicketCode], [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [BookedTickets] AS [b]
+LEFT JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookingId] = @__request_BookedTicketId_0 AND [b].[TicketCode] = @__request_TicketCode_1
+2025-03-04 16:29:06.893 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [BookedTickets]
+OUTPUT 1
+WHERE [BookingId] = @p0;
+2025-03-04 16:29:06.915 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.RevokeTicketResponse'.
+2025-03-04 16:29:06.925 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka) in 1695.7122ms
+2025-03-04 16:29:06.926 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.RevokeTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:29:06.932 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7035/api/v1/revoke-ticket/b0d74379-2405-497b-b2d8-966168991639/TL001/2 - 200 null application/json; charset=utf-8 1750.7965ms
+2025-03-04 16:36:31.918 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-04 16:36:31.926 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-04 16:36:32.007 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-04 16:36:32.008 +07:00 [INF] Hosting environment: Development
+2025-03-04 16:36:32.010 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-04 16:36:32.164 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-04 16:36:32.307 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 149.2227ms
+2025-03-04 16:36:32.318 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-04 16:36:32.318 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-04 16:36:32.318 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-04 16:36:32.321 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 3.2507ms
+2025-03-04 16:36:32.340 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 21.6206ms
+2025-03-04 16:36:32.357 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.2246ms
+2025-03-04 16:36:32.382 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-04 16:36:32.400 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.3573ms
+2025-03-04 16:36:55.568 +07:00 [INF] Request starting HTTP/2 PUT https://localhost:7035/api/v1/edit-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - application/json 56
+2025-03-04 16:36:55.576 +07:00 [INF] CORS policy execution successful.
+2025-03-04 16:36:55.584 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.EditBookedTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:36:55.623 +07:00 [INF] Route matched with {action = "EditBookedTicket", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditBookedTicket(System.String, System.Collections.Generic.List`1[BryanJonatan_Acceloka.Model.BookedTicketUpdateRequest], FluentValidation.IValidator`1[BryanJonatan_Acceloka.Model.EditBookedTicketCommand]) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-04 16:36:57.615 +07:00 [INF] Executed DbCommand (82ms) [Parameters=[@__id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [BookedTickets] AS [b]
+        WHERE [b].[BookingId] = @__id_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-04 16:36:57.696 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__code_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Tickets] AS [t]
+        WHERE [t].[TicketCode] = @__code_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-03-04 16:36:57.871 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__request_BookedTicketId_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[BookingId], [b].[Quantity], [b].[TicketCode], [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [BookedTickets] AS [b]
+LEFT JOIN [Tickets] AS [t] ON [b].[TicketCode] = [t].[TicketCode]
+WHERE [b].[BookingId] = @__request_BookedTicketId_0
+2025-03-04 16:36:57.977 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__update_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[TicketCode] = @__update_TicketCode_0
+2025-03-04 16:36:58.016 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__update_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__update_TicketCode_0
+2025-03-04 16:36:58.132 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p1='?' (Size = 255), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [BookedTickets] SET [Quantity] = @p0
+OUTPUT 1
+WHERE [BookingId] = @p1;
+2025-03-04 16:36:58.160 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__bookedTicket_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__bookedTicket_TicketCode_0
+2025-03-04 16:36:58.175 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.EditBookedTicketResponse'.
+2025-03-04 16:36:58.193 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.EditBookedTicket (BryanJonatan_Acceloka) in 2562.0909ms
+2025-03-04 16:36:58.195 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.EditBookedTicket (BryanJonatan_Acceloka)'
+2025-03-04 16:36:58.211 +07:00 [INF] Request finished HTTP/2 PUT https://localhost:7035/api/v1/edit-booked-ticket/3ec217bb-7634-49a0-8ef1-17db3da16b34 - 200 null application/json; charset=utf-8 2643.3269ms

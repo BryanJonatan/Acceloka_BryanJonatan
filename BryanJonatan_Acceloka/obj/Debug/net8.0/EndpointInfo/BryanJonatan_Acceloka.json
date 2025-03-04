@@ -12,28 +12,28 @@
         ],
         "parameters": [
           {
-            "name": "categoryName",
+            "name": "CategoryName",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "ticketCode",
+            "name": "TicketCode",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "ticketName",
+            "name": "TicketName",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "price",
+            "name": "Price",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -41,7 +41,7 @@
             }
           },
           {
-            "name": "eventDateMin",
+            "name": "EventDateMin",
             "in": "query",
             "schema": {
               "type": "string",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "name": "eventDateMax",
+            "name": "EventDateMax",
             "in": "query",
             "schema": {
               "type": "string",
@@ -57,37 +57,33 @@
             }
           },
           {
-            "name": "orderBy",
+            "name": "OrderBy",
             "in": "query",
             "schema": {
-              "type": "string",
-              "default": "TicketCode"
+              "type": "string"
             }
           },
           {
-            "name": "orderState",
+            "name": "OrderState",
             "in": "query",
             "schema": {
-              "type": "string",
-              "default": "asc"
+              "type": "string"
             }
           },
           {
-            "name": "pageNumber",
+            "name": "PageNumber",
             "in": "query",
             "schema": {
               "type": "integer",
-              "format": "int32",
-              "default": 1
+              "format": "int32"
             }
           },
           {
-            "name": "pageSize",
+            "name": "PageSize",
             "in": "query",
             "schema": {
               "type": "integer",
-              "format": "int32",
-              "default": 10
+              "format": "int32"
             }
           }
         ],
@@ -107,26 +103,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/BookTicketRequest"
-                }
+                "$ref": "#/components/schemas/BookTicketCommand"
               }
             },
             "text/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/BookTicketRequest"
-                }
+                "$ref": "#/components/schemas/BookTicketCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/BookTicketRequest"
-                }
+                "$ref": "#/components/schemas/BookTicketCommand"
               }
             }
           }
@@ -252,6 +239,19 @@
   },
   "components": {
     "schemas": {
+      "BookTicketCommand": {
+        "type": "object",
+        "properties": {
+          "bookingRequests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BookTicketRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "BookTicketRequest": {
         "required": [
           "ticketCode"
@@ -270,9 +270,6 @@
         "additionalProperties": false
       },
       "BookedTicketUpdateRequest": {
-        "required": [
-          "ticketCode"
-        ],
         "type": "object",
         "properties": {
           "ticketCode": {

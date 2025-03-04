@@ -2,5 +2,11 @@
 
 namespace BryanJonatan_Acceloka.Model
 {
-    public record RevokeTicketCommand(string bookedTicketId, string ticketCode, int quantity) : IRequest<Unit>;
+    public class RevokeTicketCommand : IRequest<RevokeTicketResponse>
+    {
+        public string BookedTicketId { get; set; }
+        public string TicketCode { get; set; }
+        public int Qty { get; set; }
+    }
+
 }

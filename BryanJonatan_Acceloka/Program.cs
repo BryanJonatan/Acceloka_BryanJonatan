@@ -11,6 +11,8 @@ using System.Text.Json;
 using BryanJonatan_Acceloka;
 using FluentValidation;
 using MediatR;
+using BryanJonatan_Acceloka.Validators;
+using BryanJonatan_Acceloka.Handlers;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -32,14 +34,20 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowLocalhost",
-        policy => policy.WithOrigins("http://localhost:3000")
+        policy => policy.AllowAnyOrigin()
                         .AllowAnyHeader()
                         .AllowAnyMethod());
 });
 
-builder.Services.AddMediatR(typeof(Program));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
-
+builder.Services.AddValidatorsFromAssemblyContaining<BookTicketValidator>();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<GetAvailableTicketsHandler>());
+builder.Services.AddValidatorsFromAssemblyContaining<GetAvailableTicketsValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<GetBookedTicketValidator>();
+builder.Services.AddScoped<IValidator<GetBookedTicketQuery>, GetBookedTicketValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<RevokeTicketValidator>();
+builder.Services.AddScoped<IRequestHandler<RevokeTicketCommand, RevokeTicketResponse>, RevokeTicketHandler>();
 
 var app = builder.Build();
 

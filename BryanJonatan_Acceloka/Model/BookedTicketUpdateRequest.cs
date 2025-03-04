@@ -2,7 +2,7 @@
 {
     public class BookedTicketUpdateRequest
     {
-        public required string TicketCode { get; set; } // Ticket code to update
-        public int Quantity { get; set; } // New quantity
+        public string TicketCode { get; set; } = string.Empty;
+        public int Quantity { get; set; }
     }
 }

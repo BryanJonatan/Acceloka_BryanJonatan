@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "bookingRequests",
-        "Type": "System.Collections.Generic.List\u00601[[BryanJonatan_Acceloka.Model.BookTicketRequest, BryanJonatan_Acceloka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "command",
+        "Type": "BryanJonatan_Acceloka.Model.BookTicketCommand",
         "IsRequired": true
       }
     ],
@@ -45,52 +45,52 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoryName",
+        "Name": "CategoryName",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "ticketCode",
+        "Name": "TicketCode",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "ticketName",
+        "Name": "TicketName",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "price",
+        "Name": "Price",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "eventDateMin",
+        "Name": "EventDateMin",
         "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "eventDateMax",
+        "Name": "EventDateMax",
         "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "orderBy",
+        "Name": "OrderBy",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "orderState",
+        "Name": "OrderState",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "pageNumber",
+        "Name": "PageNumber",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "pageSize",
+        "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
       }

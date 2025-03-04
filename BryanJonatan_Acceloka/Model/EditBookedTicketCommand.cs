@@ -2,5 +2,9 @@
 
 namespace BryanJonatan_Acceloka.Model
 {
-    public record EditBookedTicketCommand(string BookedTicketId, List<TicketItem> Tickets) : IRequest<BookedTicketResponse>;
+    public class EditBookedTicketCommand : IRequest<EditBookedTicketResponse>
+    {
+        public string BookedTicketId { get; set; } = string.Empty;
+        public List<BookedTicketUpdateRequest> Updates { get; set; } = new();
+    }
 }

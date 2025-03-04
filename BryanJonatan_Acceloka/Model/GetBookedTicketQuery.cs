@@ -2,5 +2,9 @@
 
 namespace BryanJonatan_Acceloka.Model
 {
-    public record GetBookedTicketQuery(string BookedTicketId) : IRequest<BookedTicketResponse>;
+    public class GetBookedTicketQuery : IRequest<GetBookedTicketResponse>
+    {
+        public string BookedTicketId { get; set; } 
+    }
+
 }
