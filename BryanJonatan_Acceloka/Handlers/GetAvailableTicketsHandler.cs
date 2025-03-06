@@ -32,10 +32,14 @@ namespace BryanJonatan_Acceloka.Handlers
             if (query.EventDateMax.HasValue)
                 queryable = queryable.Where(t => t.EventDateMaximum <= query.EventDateMax.Value);
 
-            // Apply ordering
-            queryable = query.OrderState?.ToLower() == "desc"
+     
+            queryable = (query.OrderState?.ToLower() == "desc")
                 ? queryable.OrderByDescending(t => EF.Property<object>(t, query.OrderBy ?? "TicketCode"))
-                : queryable.OrderBy(t => EF.Property<object>(t, query.OrderBy ?? "TicketCode"));
+                .ThenByDescending(t => t.EventDateMinimum)
+                .ThenByDescending(t => t.Price)
+                : queryable.OrderBy(t => EF.Property<object>(t, query.OrderBy ?? "TicketCode"))
+                .ThenBy(t => t.EventDateMinimum)
+                .ThenBy(t => t.Price);
 
             var totalRecords = await queryable.CountAsync(cancellationToken);
             var tickets = await queryable
@@ -54,9 +58,11 @@ namespace BryanJonatan_Acceloka.Handlers
                     Minimum = t.EventDateMinimum,
                     Maximum = t.EventDateMaximum
                 },
-                AvailableQuota = t.Quota - (_context.BookedTickets
-                    .Where(bt => bt.TicketCode == t.TicketCode)
-                    .Sum(bt => (int?)bt.Quantity) ?? 0)
+                AvailableQuota = Math.Max(0, t.Quota - (_context.BookedTickets
+                .Where(bt => bt.TicketCode == t.TicketCode)
+                .Sum(bt => (int?)bt.Quantity) ?? 0))
+
+
             })
             .Where(t => t.AvailableQuota > 0)
             .ToList();
