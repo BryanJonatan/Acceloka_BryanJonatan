@@ -3954,3 +3954,66 @@ WHERE [b].[TicketCode] = @__t_TicketCode_0
 2025-03-06 13:40:34.302 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 189.2775ms
 2025-03-06 13:40:34.302 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
 2025-03-06 13:40:34.302 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 201.3672ms
+2025-03-06 15:15:00.222 +07:00 [INF] Now listening on: https://localhost:7035
+2025-03-06 15:15:00.234 +07:00 [INF] Now listening on: http://localhost:5292
+2025-03-06 15:15:00.408 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 15:15:00.410 +07:00 [INF] Hosting environment: Development
+2025-03-06 15:15:00.413 +07:00 [INF] Content root path: C:\Users\Asus\Downloads\BryanJonatan_Acceloka\BryanJonatan_Acceloka
+2025-03-06 15:15:01.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.html - null null
+2025-03-06 15:15:01.576 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.html - 200 null text/html;charset=utf-8 166.9378ms
+2025-03-06 15:15:01.586 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 15:15:01.586 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/_vs/browserLink - null null
+2025-03-06 15:15:01.586 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/index.js - null null
+2025-03-06 15:15:01.596 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/index.js - 200 null application/javascript;charset=utf-8 10.9703ms
+2025-03-06 15:15:01.614 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 28.6761ms
+2025-03-06 15:15:01.658 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.5846ms
+2025-03-06 15:15:01.688 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - null null
+2025-03-06 15:15:01.708 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.8147ms
+2025-03-06 15:15:12.141 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - null null
+2025-03-06 15:15:12.149 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-06 15:15:12.175 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(BryanJonatan_Acceloka.Model.GetAvailableTicketsQuery) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-06 15:15:13.486 +07:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+2025-03-06 15:15:13.567 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+ORDER BY [t].[TicketCode], [t].[EventDateMinimum], [t].[Price]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-03-06 15:15:13.637 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-06 15:15:13.644 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-06 15:15:13.648 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-06 15:15:13.655 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetAvailableTicketsResponse'.
+2025-03-06 15:15:13.669 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 1490.4594ms
+2025-03-06 15:15:13.669 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-06 15:15:13.674 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket - 200 null application/json; charset=utf-8 1532.6662ms
+2025-03-06 15:15:34.025 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?EventDateMin=2025-05-06T12%3A00%3A00&EventDateMax=2025-07-07T12%3A00%3A00 - null null
+2025-03-06 15:15:34.028 +07:00 [INF] Executing endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-06 15:15:34.028 +07:00 [INF] Route matched with {action = "GetAvailableTickets", controller = "Tickets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableTickets(BryanJonatan_Acceloka.Model.GetAvailableTicketsQuery) on controller BryanJonatan_Acceloka.Controllers.TicketsController (BryanJonatan_Acceloka).
+2025-03-06 15:15:34.065 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__query_EventDateMin_Value_0='?' (DbType = DateTime2), @__query_EventDateMax_Value_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tickets] AS [t]
+WHERE [t].[EventDateMinimum] >= @__query_EventDateMin_Value_0 AND [t].[EventDateMaximum] <= @__query_EventDateMax_Value_1
+2025-03-06 15:15:34.076 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__query_EventDateMin_Value_0='?' (DbType = DateTime2), @__query_EventDateMax_Value_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TicketCode], [t].[CategoryName], [t].[EventDateMaximum], [t].[EventDateMinimum], [t].[Price], [t].[Quota], [t].[TicketName]
+FROM [Tickets] AS [t]
+WHERE [t].[EventDateMinimum] >= @__query_EventDateMin_Value_0 AND [t].[EventDateMaximum] <= @__query_EventDateMax_Value_1
+ORDER BY [t].[TicketCode], [t].[EventDateMinimum], [t].[Price]
+OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+2025-03-06 15:15:34.079 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__t_TicketCode_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([b].[Quantity]), 0)
+FROM [BookedTickets] AS [b]
+WHERE [b].[TicketCode] = @__t_TicketCode_0
+2025-03-06 15:15:34.080 +07:00 [INF] Executing OkObjectResult, writing value of type 'BryanJonatan_Acceloka.Model.GetAvailableTicketsResponse'.
+2025-03-06 15:15:34.080 +07:00 [INF] Executed action BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka) in 51.9578ms
+2025-03-06 15:15:34.080 +07:00 [INF] Executed endpoint 'BryanJonatan_Acceloka.Controllers.TicketsController.GetAvailableTickets (BryanJonatan_Acceloka)'
+2025-03-06 15:15:34.080 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7035/api/v1/get-available-ticket?EventDateMin=2025-05-06T12%3A00%3A00&EventDateMax=2025-07-07T12%3A00%3A00 - 200 null application/json; charset=utf-8 58.6203ms
